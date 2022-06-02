@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using (var context = new SchoolContext())
 {
     int id;
+    string t = "W";
     while (Menu.MainMenu() != 6)
     {
         switch (Menu.Choise)
