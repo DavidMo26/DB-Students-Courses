@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace D151121ER_exam_prep
 {
-    public class Menu
+    static class Menu
     {
         public static int Choise { get; set; }
 
